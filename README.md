@@ -2,4 +2,6 @@
 
 Name: Hanwen Chen
 
+Link to website: https://stevenchenhanwen2006.github.io/Lab8_Starter/
+
 Graceful degradation and service workers are related because both aim to ensure a web application continues to function even when ideal conditions are not available, but they operate at different layers. Graceful degradation is a design approach where the app is built to work first in a fully functional state and still remain usable when features fail or are unsupported. Service workers implement this idea at the network layer by intercepting requests and serving cached resources when the network is slow or unavailable, allowing the application to still load and function offline or under poor network conditions. In this way, service workers are a concrete mechanism that helps achieve graceful degradation for modern web applications by reducing dependence on live network access.
